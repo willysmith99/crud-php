@@ -55,9 +55,9 @@
                         <td><?php echo $row['created_at']; ?></td>
                         <td>
                             <div class="text-center" role="group">
-                                <a class="m-1 btn btn-primary" href="update.php?id=<?php echo $row['id']; ?>"><img src="img/editar2.png" width="20" alt=""> Update</a>
+                                <a class="m-1 btn btn-primary" href="crud/update.php?id=<?php echo $row['id']; ?>"><img src="img/editar2.png" width="20" alt=""> Update</a>
                                 |
-                                <a class="m-1 btn btn-danger" href="delete.php?id=<?php echo $row['id']; ?>"> <img src="img/basura.png" width="20" alt=""> Delete </a>
+                                <a class="m-1 btn btn-danger" href="crud/delete.php?id=<?php echo $row['id']; ?>"> <img src="img/basura.png" width="20" alt=""> Delete </a>
                             </div>
                         </td>
                         </td>

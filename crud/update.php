@@ -32,7 +32,7 @@
 
 ?>
 
-<?php include 'layouts/header.php'; ?>
+<?php include '../layouts/header.php'; ?>
 
     <div class="container p-4">
         <div class="row">
@@ -46,11 +46,11 @@
                             <textarea name="description" class="form-control mb-3" rows="2"><?php  echo $description; ?></textarea>
                         </div>
                         <button class="btn btn-success" name="update" >Actualizar</button>
-                        <a href="index.php" class="btn btn-danger" > Cancelar </a>
+                        <a href="../index.php" class="btn btn-danger" > Cancelar </a>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 
-<?php include 'layouts/footer.php'; ?>
+<?php include '../layouts/footer.php'; ?>
